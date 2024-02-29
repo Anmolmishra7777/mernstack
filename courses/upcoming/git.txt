@@ -1,0 +1,12 @@
+
+INITIAL ONE TIME SETUP
+1. git init
+2. git remote add origin <git url>
+  eg: git remote add origin https://github.com/Anmolmishra7777/mernstack
+
+  to check step 2
+  : git remote -v 
+
+  DAILY PURPOSE
+  1. git status
+  2. git add .
