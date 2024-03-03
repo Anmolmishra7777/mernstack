@@ -25,7 +25,7 @@ dbUser.forEach(check=>{
 
 c === 1 ? console.log('You are logged in.') : console.log('Your username or password is incorrect.');
 
-let students = ['ram','shyam','hari']
+let students = ['ram','shyam',]
 let d = 0 ;
 students.forEach(print =>{
   

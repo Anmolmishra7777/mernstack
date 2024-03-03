@@ -10,3 +10,14 @@ INITIAL ONE TIME SETUP
   DAILY PURPOSE
   1. git status
   2. git add .
+  3. git commit -m "js fundamentals"
+
+ // (if you haven configured) git config --global user.email "anmolmishra7777@gmail.com"
+  git config --global user.name "Anmolmishra7777"
+
+  4. git push
+
+
+  to clone other repo
+  also 
+  git clone <url>
