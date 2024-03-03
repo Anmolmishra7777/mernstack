@@ -36,14 +36,30 @@ students.forEach(print =>{
 //find multiplication(5)
 
 
-function multiply(number,startingpoint,endpoint) {
-  for(let a= startingpoint ; a<=endpoint;a++){
-    console.log(`${number}*${a}=${number*a}`);
+function multiply(obj) {
+    let {number, startingpoint,endpoint}=obj
+    for(let a= startingpoint ; a<=endpoint;a++){
+      console.log(`${number}*${a}=${number*a}`);
+    }
+    
   }
   
-}
-
-multiply(5,5,10)
+  multiply({number:5,startingpoint:5,endpoint:10})
+  // make the number of array double 
+  let numbers = [1,2,3,4,5];
+  
+  for(let i =0 ; i<numbers.length;i++){
+   numbers[i] = numbers[i]*2
+   
+  };
+  console.log(numbers);
+  
+  // make the number of array double with for each
+  
+  numbers.forEach((num, a) => {
+    numbers[a] = numbers[a]*2
+  });
+  console.log(numbers);
 
 
 
